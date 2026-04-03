@@ -1,5 +1,8 @@
 # TurboQuant
-
+<p align="center">
+  <a href="./README.md"><img alt="English" src="https://img.shields.io/badge/English-文档-blue"></a>
+  <a href="README-ZH.md"><img alt="中文" src="https://img.shields.io/badge/中文-文档-red"></a>
+</p>
 A from-scratch PyTorch implementation of [TurboQuant](https://arxiv.org/abs/2504.19874) (ICLR 2026), Google's vector quantization algorithm for compressing LLM key-value caches. Tested on Windows with NVIDIA GPUs.
 
 We implemented the paper's algorithm, found that its key innovation (QJL) actually hurts in practice, and built an improved version (V3) informed by findings from 8+ independent community implementations.
